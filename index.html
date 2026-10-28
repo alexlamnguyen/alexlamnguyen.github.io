@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fafaf8" />
+    <meta name="description" content="A minimal personal website for projects, experience, and more." />
+    <title>Your Name — Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" data-nav="home">Home</a>
+          <a href="#projects" data-nav="projects">Projects</a>
+          <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Résumé <span class="nav-external" aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+      <footer class="footer">
+        <span id="footer-name">Your Name</span>
+        <span class="footer-separator" aria-hidden="true">·</span>
+        <span>© <span id="footer-year"></span></span>
+      </footer>
+    </div>
+  </body>
+</html>
