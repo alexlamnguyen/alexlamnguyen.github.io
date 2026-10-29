@@ -48,7 +48,7 @@ window.PORTFOLIO = {
       title: "vacuum tube headphone amplifier / preamplifier",
       year: "2026",
       summary: "low output impedance valve audio amplifier with a 6sn7 gain stage and an ecc99 cathode follower stage",
-      details: "Designed, simulated, assembled, and tested an original headphone amplifier. Describe your design choices, technical challenges, and results here.",
+      details: "",
       tags: ["Analog", "Audio", "PCB Design"],
       images: [
         { src: "assets/vt-signal.png", alt: "Vacuum tube amplifier signal schematic", caption: "Signal circuit", fullWidth: true },
