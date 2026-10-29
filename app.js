@@ -171,9 +171,7 @@
       if (active) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
-    document.title = project ? `${project.title} — ${data.name}`
-      : slug !== undefined ? `Project not found — ${data.name}`
-      : page === 'home' ? `${data.name} — Portfolio` : `Projects — ${data.name}`;
+    document.title = page === 'home' ? 'alex nguyen - portfolio' : 'alex nguyen - projects';
     window.scrollTo({ top: 0, behavior: 'instant' });
     app.focus({ preventScroll: true });
   }
