@@ -57,16 +57,6 @@ window.PORTFOLIO = {
         { src: "assets/vt-powerpcb.png", alt: "Vacuum tube amplifier power supply PCB layout", caption: "Power supply board layout", fullWidth: true }
       ],
       links: [] // Example: [{ label: "GitHub", url: "https://github.com/you/project" }]
-    },
-    {
-      slug: "analog-synth",
-      title: "modular analog audio synth",
-      year: "2026",
-      summary: "modular audio synthesizer with voltage controlled oscillators, filters, and amplifiers.",
-      details: "",
-      tags: ["Analog", "Audio"],
-      images: [], // Example: ["assets/photo-1.jpg", "assets/photo-2.jpg"]
-      links: []
     }
 
   ],
