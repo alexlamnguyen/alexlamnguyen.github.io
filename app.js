@@ -171,7 +171,7 @@
       if (active) link.setAttribute('aria-current', 'page');
       else link.removeAttribute('aria-current');
     });
-    document.title = page === 'home' ? 'alex nguyen - portfolio' : 'alex nguyen - projects';
+    document.title = page === 'home' ? 'Alex Nguyen - Portfolio' : 'Alex Nguyen - Projects';
     window.scrollTo({ top: 0, behavior: 'instant' });
     app.focus({ preventScroll: true });
   }
